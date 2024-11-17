@@ -7,8 +7,8 @@ public partial class PaginaGrid : ContentPage
 		InitializeComponent();
 	}
 
-    private void NuevaPestaña_Clicked(object sender, EventArgs e)
+    private async void NuevaPestaña_Clicked(object sender, EventArgs e)
     {
-		Navigation.PopAsync();
+        await Navigation.PushAsync(new PaginaStackLayoutVertical());
     }
 }
