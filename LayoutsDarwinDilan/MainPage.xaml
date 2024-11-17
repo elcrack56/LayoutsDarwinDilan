@@ -32,7 +32,7 @@
                 HorizontalOptions="Fill" />
             <Button
                 x:Name="NuevaPagina"
-                Text="ir a pgina de prueba"
+                Text="ir a GridLayout"
                 Clicked="NuevaPagina_Clicked"/>
         </VerticalStackLayout>
     </ScrollView>

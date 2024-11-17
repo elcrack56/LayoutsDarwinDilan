@@ -23,7 +23,7 @@
 
         private void NuevaPagina_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PaginaPrueba());
+            Navigation.PushAsync(new PaginaGrid());
         }
     }
 
