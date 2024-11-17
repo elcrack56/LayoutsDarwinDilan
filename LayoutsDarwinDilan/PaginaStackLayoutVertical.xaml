@@ -3,10 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LayoutsDarwinDilan.PaginaStackLayoutVertical"
              Title="PaginaStackLayoutVertical">
-    <VerticalStackLayout>
+
+    <StackLayout Padding="20" Spacing="15">
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
+            Text="Darwin López"
+            FontSize="30"
             HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+        <Label 
+            Text="Darwin López"
+            FontSize="20"
+            HorizontalOptions="Center" />
+
+        <Label 
+            Text="Darwin López"
+            FontSize="12"
+            HorizontalOptions="Center" />
+
+        <Button
+           x:Name="NuevaPage"
+           Text="ir a FlexLayout"
+           Clicked="NuevaPage_Clicked"/>
+    </StackLayout>
 </ContentPage>
