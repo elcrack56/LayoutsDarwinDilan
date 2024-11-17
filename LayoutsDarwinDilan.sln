@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutsDarwinDilan", "LayoutsDarwinDilan\LayoutsDarwinDilan.csproj", "{A16236FD-4DEC-4B17-A519-111D67A47B5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A16236FD-4DEC-4B17-A519-111D67A47B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16236FD-4DEC-4B17-A519-111D67A47B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16236FD-4DEC-4B17-A519-111D67A47B5F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A16236FD-4DEC-4B17-A519-111D67A47B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16236FD-4DEC-4B17-A519-111D67A47B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16236FD-4DEC-4B17-A519-111D67A47B5F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91F2DEFC-2C22-4183-BBF4-09CA24D6926B}
+	EndGlobalSection
+EndGlobal
