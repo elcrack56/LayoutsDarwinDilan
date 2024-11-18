@@ -1,9 +1,17 @@
-namespace LayoutsDarwinDilan;
+using Microsoft.Maui.Controls;
 
-public partial class PaginaFlexLayout : ContentPage
+namespace LayoutsDarwinDilan
 {
-	public PaginaFlexLayout()
-	{
-		InitializeComponent();
-	}
+    public partial class PaginaFlexLayout : ContentPage
+    {
+        public PaginaFlexLayout()
+        {
+            InitializeComponent();
+        }
+
+        private async void OnImageTapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PaginaAbsoluteLayout());
+        }
+    }
 }

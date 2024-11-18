@@ -3,10 +3,36 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LayoutsDarwinDilan.PaginaFlexLayout"
              Title="PaginaFlexLayout">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <ScrollView>
+        <FlexLayout Direction="Column" Margin="10">
+            <FlexLayout Direction="Row" AlignItems="Center" Margin="5,10">
+                <Image Source="layouts.png" WidthRequest="50" HeightRequest="50" Margin="5">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Text="Elemento 1" VerticalOptions="Center" Margin="10,0" />
+            </FlexLayout>
+
+            <FlexLayout Direction="Row" AlignItems="Center" Margin="5,10">
+                <Image Source="layouts.png" WidthRequest="50" HeightRequest="50" Margin="5">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Text="Elemento 2" VerticalOptions="Center" Margin="10,0" />
+            </FlexLayout>
+
+            <FlexLayout Direction="Row" AlignItems="Center" Margin="5,10">
+                <Image Source="layouts.png" WidthRequest="50" HeightRequest="50" Margin="5">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Text="Elemento 3" VerticalOptions="Center" Margin="10,0" />
+            </FlexLayout>
+        </FlexLayout>
+    </ScrollView>
+
 </ContentPage>
