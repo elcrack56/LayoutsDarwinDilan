@@ -11,7 +11,9 @@
                 <Label Text="Contenido desplazable" 
                        FontSize="Large" 
                        HorizontalOptions="Center" />
-                <BoxView HeightRequest="2000" Color="LightGray" />
+                
+                <BoxView HeightRequest="1000" 
+                         Color="BlueViolet" />
             </StackLayout>
         </ScrollView>
 

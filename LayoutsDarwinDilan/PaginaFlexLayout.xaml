@@ -7,16 +7,16 @@
     <ScrollView>
         <StackLayout Padding="10" Spacing="20">
             <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="SpaceEvenly">
-                <Image Source="layouts.png" WidthRequest="150" HeightRequest="50">
+                <Image Source="uno.png" WidthRequest="150" HeightRequest="250">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnImageTapped" />
                     </Image.GestureRecognizers>
                 </Image>
                 <Label Text="Elemento 1" VerticalOptions="Center" />
             </FlexLayout>
-
+            
             <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="SpaceEvenly">
-                <Image Source="layouts.png" WidthRequest="150" HeightRequest="50">
+                <Image Source="dos.png" WidthRequest="150" HeightRequest="250">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnImageTapped" />
                     </Image.GestureRecognizers>
@@ -25,7 +25,7 @@
             </FlexLayout>
 
             <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="SpaceEvenly">
-                <Image Source="layouts.png" WidthRequest="150" HeightRequest="50">
+                <Image Source="tres.png" WidthRequest="150" HeightRequest="250">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnImageTapped" />
                     </Image.GestureRecognizers>
