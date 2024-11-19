@@ -4,22 +4,24 @@
              x:Class="LayoutsDarwinDilan.PaginaAbsoluteLayout"
              Title="PaginaAbsoluteLayout">
     <AbsoluteLayout>
-        <ScrollView>
+        <ScrollView 
+            AbsoluteLayout.LayoutBounds="0, 0, 1, 0.9"
+            AbsoluteLayout.LayoutFlags="All">
             <StackLayout Padding="20">
                 <Label Text="Contenido desplazable" 
                        FontSize="Large" 
                        HorizontalOptions="Center" />
-                <BoxView HeightRequest="1000" Color="LightGray" />
+                <BoxView HeightRequest="2000" Color="LightGray" />
             </StackLayout>
         </ScrollView>
 
-        <Button Text="Ir a Grid"
+        <Button Text="Ir a GridLayout"
                 TextColor="White"
                 CornerRadius="25"
-                WidthRequest="50"
+                WidthRequest="200"
                 HeightRequest="50"
                 Clicked="OnButtonClicked"
-                AbsoluteLayout.LayoutBounds="1, 1, 50, 50"
+                AbsoluteLayout.LayoutBounds="1, 1, 200, 50"
                 AbsoluteLayout.LayoutFlags="PositionProportional" />
     </AbsoluteLayout>
 </ContentPage>
