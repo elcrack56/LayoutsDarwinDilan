@@ -63,6 +63,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="PaginaAbsoluteLayout.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="PaginaFlexLayout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
