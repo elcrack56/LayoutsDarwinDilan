@@ -5,34 +5,34 @@
              Title="PaginaFlexLayout">
 
     <ScrollView>
-        <FlexLayout Direction="Column" Margin="10">
-            <FlexLayout Direction="Row" AlignItems="Center" Margin="5,10">
-                <Image Source="dotnet_bot.png" WidthRequest="50" HeightRequest="50" Margin="5">
+        <StackLayout Padding="10" Spacing="20">
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="SpaceEvenly">
+                <Image Source="layouts.png" WidthRequest="150" HeightRequest="50">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnImageTapped" />
                     </Image.GestureRecognizers>
                 </Image>
-                <Label Text="Elemento 1" VerticalOptions="Center" Margin="10,0" />
+                <Label Text="Elemento 1" VerticalOptions="Center" />
             </FlexLayout>
 
-            <FlexLayout Direction="Row" AlignItems="Center" Margin="5,10">
-                <Image Source="dotnet_bot.png" WidthRequest="50" HeightRequest="50" Margin="5">
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="SpaceEvenly">
+                <Image Source="layouts.png" WidthRequest="150" HeightRequest="50">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnImageTapped" />
                     </Image.GestureRecognizers>
                 </Image>
-                <Label Text="Elemento 2" VerticalOptions="Center" Margin="10,0" />
+                <Label Text="Elemento 2" VerticalOptions="Center" />
             </FlexLayout>
 
-            <FlexLayout Direction="Row" AlignItems="Center" Margin="5,10">
-                <Image Source="dotnet_bot.png" WidthRequest="50" HeightRequest="50" Margin="5">
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="SpaceEvenly">
+                <Image Source="layouts.png" WidthRequest="150" HeightRequest="50">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnImageTapped" />
                     </Image.GestureRecognizers>
                 </Image>
-                <Label Text="Elemento 3" VerticalOptions="Center" Margin="10,0" />
+                <Label Text="Elemento 3" VerticalOptions="Center" />
             </FlexLayout>
-        </FlexLayout>
+        </StackLayout>
     </ScrollView>
 
 </ContentPage>
