@@ -10,6 +10,6 @@ public partial class PaginaStackLayoutVertical : ContentPage
 
     private async void NuevaPage_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new PaginaAbsoluteLayout());
+        await Navigation.PushAsync(new PaginaFlexLayout());
     }
 }
